@@ -8,4 +8,4 @@ USER='pirovano.co.uk'
 SOURCEFOLDER='public'
 TARGETFOLDER='/customers/4/1/c/pirovano.co.uk/httpd.www'
 
-ncftpput -avR -u "$USER" "$HOST" "$TARGETFOLDER" "$SOURCEFOLDER"/*
+ncftpput -vR -u "$USER" "$HOST" "$TARGETFOLDER" "$SOURCEFOLDER"/*

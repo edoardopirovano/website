@@ -116,7 +116,10 @@
     <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
   {{ end }}
 
-  <script data-project-id="njNkTqFrP6RIASudNSOWr3egJDoK3Mb6NaVxjDbx" src="https://snippet.meticulous.ai/v1/meticulous.js"></script>
+  <script>
+    window["METICULOUS_DEBUG"] = true;
+  </script>
+  <script data-project-id="IXBnTydKmP2c1uiCLXrQfeqo3CsD3EGBwcHLxRvu" src="https://snippet.meticulous.ai/v1/meticulous.js"></script>
 
   {{ if not site.IsServer }}
   {{ if site.GoogleAnalytics }}
