@@ -63,4 +63,4 @@ email: ""
 #- Visitors
 ---
 
-I am a software engineer working at Meticulous, where I'm developing software to fully automate website testing. Before joining Meticulous, I worked in code analysis at Lacework and GitHub. And before then, I was a PhD student at Imperial College London where I carried out research on verifying the safety of AI systems.
+CHANGE ONE: I am a software engineer working at Meticulous, where I'm developing software to fully automate website testing. Before joining Meticulous, I worked in code analysis at Lacework and GitHub. And before then, I was a PhD student at Imperial College London where I carried out research on verifying the safety of AI systems.
