@@ -33,7 +33,7 @@ jobs:
       - name: Serve website
         run: |
           hugo
-          hugo server -F --i18n-warnings --bind 0.0.0.0 &
+          hugo server -F --bind "0.0.0.0" &
           sleep 5
 
       - name: Run Meticulous tests
