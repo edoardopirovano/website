@@ -37,7 +37,7 @@ jobs:
           sleep 5
 
       - name: Run Meticulous tests
-        uses: alwaysmeticulous/report-diffs-action@v1
+        uses: alwaysmeticulous/report-diffs-action@edoardo/proxy-to-host
         with:
           api-token: ${{ secrets.METICULOUS_API_TOKEN }}
           app-url: "http://localhost:1313/"
